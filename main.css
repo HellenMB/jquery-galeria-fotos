@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/* Define estilos iniciais para todos os elementos:
+   - Remove margens e preenchimentos padrão
+   - Usa a fonte 'Roboto' como fonte padrão
+*/
 
 header{
     background-color: blueviolet;
@@ -15,10 +19,23 @@ header{
     text-transform: uppercase;
     font-style: italic;
 }
+/* Estilos para o elemento <header>:
+  - Define cor de fundo azul violeta
+  - Adiciona preenchimento superior e inferior de 16 pixels
+  - Define cor do texto como branco
+  - Usa layout flexível
+  - Adiciona borda inferior sólida de 16 pixels
+  - Centraliza conteúdo horizontalmente
+  - Transforma texto em maiúsculas
+  - Define estilo da fonte como itálico
+*/
 
 header button{
     margin-left: 16px;
 }
+/* Estilos para o botão dentro do elemento <header>:
+ - Adiciona margem à esquerda de 16 pixels
+*/
 
 form{
     background-color: #c8d6e5;
@@ -26,13 +43,22 @@ form{
     text-align: center;
     display: none;
 }
+/* Estilos para o elemento <form>:
+   - Define cor de fundo como cinza claro
+   - Adiciona preenchimento superior e inferior de 24 pixels
+   - Centraliza conteúdo horizontalmente
+   - Inicialmente, oculta o formulário
+*/
 
 input, button{
     padding: 8px;
 }
+/* Estilos para os elementos <input> e <button>:
+   - Adiciona preenchimento de 8 pixels em todos os lados
+*/
 
-button {background-color:
-    #009432;
+button {
+    background-color: #009432;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -40,14 +66,30 @@ button {background-color:
     color: #fff;
 }
 
+/* Estilos para botões:
+   - Define cor de fundo verde
+   - Remove borda
+   - Define cursor como ponteiro
+   - Define peso da fonte como negrito
+   - Transforma texto em maiúsculas
+   - Define cor do texto como branco
+*/
+
 #botao-cancelar{
     background-color: red;
 }
+/* Estilos para o botão com ID 'botao-cancelar':
+    - Define cor de fundo como vermelho
+*/
 
 ul{
     display: flex;
     flex-wrap: wrap;
 }
+ /* Estilos para a lista não ordenada <ul>:
+   - Usa layout flexível
+   - Permite que os itens da lista sejam organizados em várias linhas
+*/
 
 ul li{
     max-width: 25%;
@@ -56,6 +98,13 @@ ul li{
     max-height: 280px;
     overflow-y: hidden;
 }
+/* Estilos para os itens da lista <li>:
+   - Define largura máxima de 25%
+   - Remove estilo de marcador de lista
+   - Define posição como relativa
+   - Define altura máxima de 280 pixels
+   - Oculta overflow vertical
+*/
 
 ul li img{
     width: 100%;
